@@ -14,7 +14,7 @@ def create_board():
 
 # Replace zero entry on board matrix with 'piece'
 def drop_piece(board, row, col, piece):
-    board[row, col] == piece
+    board[row, col] = piece
     
 # Check if the final row of the board is available for a given column
 def is_valid_location(board, col):
